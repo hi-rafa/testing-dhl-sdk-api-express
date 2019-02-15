@@ -1,0 +1,25 @@
+{
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "sdk-api-express",
+                "version":"1.0.0",
+                "source": {
+                    "url": "https://github.com/hi-rafa/dhl-sdk-api-express",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "sdk-api-express": "^1.0",
+        "ext-dom": "*",
+        "ext-soap": "*",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "classmap": ["vendor/sdk-api-express"]
+    }
+}
